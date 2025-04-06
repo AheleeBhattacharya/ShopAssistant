@@ -30,16 +30,16 @@
     width="350"
     height="430"
     src="https://console.dialogflow.com/api-client/demo/embedded/f651712f-c070-42eb-be49-ab7ceac13fac"-->
-	<link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+<link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
 <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
 <df-messenger
   project-id="infinite-alcove-449016-v8"
   agent-id="c0ed30a8-d33e-49b1-a0a8-586e7412c263"
   language-code="en"
   max-query-length="-1">
-  <df-messenger-chat-bubble
+  <df-messenger-chat
     chat-title="GenAI_InteractiveBot">
-  </df-messenger-chat-bubble>
+  </df-messenger-chat>
 </df-messenger>
 <style>
   df-messenger {
@@ -50,8 +50,10 @@
     --df-messenger-chat-background: #f3f6fc;
     --df-messenger-message-user-background: #d3e3fd;
     --df-messenger-message-bot-background: #fff;
-    bottom: 16px;
-    right: 16px;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    width: 350px;
   }
 </style>
 </iframe>
